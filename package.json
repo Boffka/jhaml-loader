@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "jhaml-loader fork; webpack loader using 'jhaml",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GalWii/jhaml-loader.git"
+  }
   "author": {
     "name": "Gaël Moliner"
   },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GalWii/jhaml-loader/issues"
+  },
   "dependencies": {
     "jhaml": "latest",
     "loader-utils": "0.2.x"
