@@ -1,0 +1,14 @@
+{
+  "name": "jhaml-loader",
+  "version": "1.0.0",
+  "description": "jhaml-loader fork; webpack loader using 'jhaml",
+  "main": "index.js",
+  "author": {
+    "name": "Gaël Moliner"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jhaml": "latest",
+    "loader-utils": "0.2.x"
+  }
+}
