@@ -1,21 +1,84 @@
 {
-  "name": "jhaml-loader",
-  "version": "1.0.1",
-  "description": "jhaml-loader fork; webpack loader using 'jhaml",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/GalWii/jhaml-loader.git"
+  "_args": [
+    [
+      {
+        "name": "jhaml-loader",
+        "raw": "jhaml-loader@^1.0.0",
+        "rawSpec": "^1.0.0",
+        "scope": null,
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "/home/abluchet/my-app"
+    ]
+  ],
+  "_from": "jhaml-loader@>=1.0.0 <2.0.0",
+  "_id": "jhaml-loader@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/jhaml-loader",
+  "_nodeVersion": "6.2.1",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/jhaml-loader-1.0.1.tgz_1471947506864_0.5480198392178863"
   },
+  "_npmUser": {
+    "email": "soyuka@gmail.com",
+    "name": "soyuka"
+  },
+  "_npmVersion": "3.9.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "jhaml-loader",
+    "raw": "jhaml-loader@^1.0.0",
+    "rawSpec": "^1.0.0",
+    "scope": null,
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jhaml-loader/-/jhaml-loader-1.0.1.tgz",
+  "_shasum": "aa1983c6c4d0c3bdd47bb1b87c626afd58acc54f",
+  "_shrinkwrap": null,
+  "_spec": "jhaml-loader@^1.0.0",
+  "_where": "/home/abluchet/my-app",
   "author": {
     "name": "Gaël Moliner"
   },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/GalWii/jhaml-loader/issues"
   },
   "dependencies": {
     "@soyuka/jhaml": "^1.0.8",
-    "loader-utils": "0.2.x"
-  }
+    "loader-utils": "0.2.x",
+    "stream-buffers": "^3.0.1"
+  },
+  "description": "jhaml-loader fork; webpack loader using 'jhaml",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "aa1983c6c4d0c3bdd47bb1b87c626afd58acc54f",
+    "tarball": "https://registry.npmjs.org/jhaml-loader/-/jhaml-loader-1.0.1.tgz"
+  },
+  "gitHead": "314f64e98274e96ac4828395a8d2d0231972d3a6",
+  "homepage": "https://github.com/GalWii/jhaml-loader#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "soyuka@gmail.com",
+      "name": "soyuka"
+    }
+  ],
+  "name": "jhaml-loader",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GalWii/jhaml-loader.git"
+  },
+  "scripts": {},
+  "version": "1.0.1"
 }
