@@ -1,17 +1,12 @@
-var fs = require('fs')
-var streamBuffers = require('stream-buffers')
+const streamBuffers = require('stream-buffers')
 
 module.exports = function (source) {
-  console.log(source);
-  let loaderUtils, jhaml, query, result
+  const loaderUtils = require("loader-utils")
+  constjhaml = require('@soyuka/jhaml')
+  const callback = this.async()
+  const engine = jhaml()
 
-  loaderUtils = require("loader-utils")
-  jhaml = require('@soyuka/jhaml')
-
-  let callback = this.async()
-  let engine = jhaml()
-
-  var myReadableStreamBuffer = new streamBuffers.ReadableStreamBuffer({
+  const myReadableStreamBuffer = new streamBuffers.ReadableStreamBuffer({
     frequency: 10,   // in milliseconds.
     chunkSize: 2048  // in bytes.
   });
@@ -19,7 +14,6 @@ module.exports = function (source) {
   myReadableStreamBuffer.pipe(engine)
   myReadableStreamBuffer.put(source)
   myReadableStreamBuffer.stop()
-
 
   let chunks = []
   engine.on('data', function(str) {
