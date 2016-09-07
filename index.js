@@ -2,7 +2,7 @@ const streamBuffers = require('stream-buffers')
 
 module.exports = function (source) {
   const loaderUtils = require("loader-utils")
-  constjhaml = require('@soyuka/jhaml')
+  const jhaml = require('@soyuka/jhaml')
   const callback = this.async()
   const engine = jhaml()
 
