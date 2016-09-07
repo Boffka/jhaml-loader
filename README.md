@@ -1,11 +1,14 @@
 # jhaml-loader for webpack
-haml-loader for webpack using jhaml
+
+jhaml-loader for webpack using @soyuka/jhaml
 
 Import haml files as modules in your webpack project.
 
-// SETUP
-
 Add to your webpack config module.loaders:
 
-{ test: /\.html\.haml$/, loader: "haml-haml" }
-
+```
+{
+  test: /\.haml$/,
+  loader: 'jhaml-loader'
+},
+```
