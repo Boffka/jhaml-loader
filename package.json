@@ -1,6 +1,6 @@
 {
   "name": "jhaml-loader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Jhaml loader webpack",
   "main": "index.js",
   "scripts": {
