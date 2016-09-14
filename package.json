@@ -24,7 +24,9 @@
   "homepage": "https://github.com/GalWii/jhaml-loader#readme",
   "dependencies": {
     "@soyuka/jhaml": "^1.0.8",
-    "loader-utils": "^0.2.15",
-    "stream-buffers": "^3.0.1"
+    "loader-utils": "^0.2.15"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
   }
 }
