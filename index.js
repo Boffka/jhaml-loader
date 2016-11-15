@@ -14,7 +14,7 @@ function JhamlLoader(source) {
   })
 
   engine.on('end', function() {
-    callback(null, `module.exports = \`${Buffer.concat(chunks).toString()}\``)
+    callback(null, `module.exports = "${Buffer.concat(chunks).toString().replace(/\"/g, '\\"').replace(/(?:\r\n|\r|\n)/g, '\\n')}"`)
   })
 
   engine.write(source)
