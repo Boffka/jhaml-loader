@@ -14,7 +14,12 @@ function JhamlLoader(source) {
   })
 
   engine.on('end', function() {
-    callback(null, `module.exports.default = module.exports = "${Buffer.concat(chunks).toString().replace(/\"/g, '\\"').replace(/(?:\r\n|\r|\n)/g, '\\n')}"`)
+    callback(null, `
+      var haml = "${Buffer.concat(chunks).toString().replace(/\"/g, '\\"').replace(/(?:\r\n|\r|\n)/g, '\\n')}";
+      module.exports = {
+        default: haml
+      };
+    `)
   })
 
   engine.write(source)
